@@ -1,24 +1,25 @@
 # Site settings
-title: Garry Singh Blog
+title: Garry Singh
 email: garry.singh@intelsoft.ca
 description: >- 
-  Welcome to the personal blog of Garry Singh, a transformative and innovative IT leader. I specialize in architecting and developing advanced, enterprise-scale, high-performance technology solutions.
+  Welcome to the personal blog of Garry Singh, I specialize in architecting and developing advanced, enterprise-scale, high-performance technology solutions.
 baseurl: "" # Leave this empty for the root domain
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 github_username: codebygarrysingh
 twitter_username: thisisgarysingh
 instagram_username: thisisgarysingh
-logo: /assets/images/your-logo.png
+logo: /assets/images/logo.png
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+permalink: /:title
 
 # Create a variable for your introduction
 intro: "I'm a passionate technology enthusiast and a dedicated blogger. Here, I share my thoughts on transformative IT solutions, innovation, and more."
 
 # Specify your profile picture (place the image in the assets/images directory)
-profile_picture: /assets/images/profile-image.jpg
+profile_picture: /assets/images/logo.jpg
 
 # Add a list of social media profiles
 social:

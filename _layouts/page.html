@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<style>
+  ul {
+    list-style: none; /* Remove list bullet style */
+    margin-left: 0;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+
+  .button:hover {
+    background-color: #007bff; /* Change color on hover */
+  }
+
+  .icon {
+    margin-right: 10px;
+    color: #fff; /* Set the icon color to white */
+  }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<div class="container">
+  <div>
+    <a href="mailto:garry.singh@intelsoft.ca?subject=Hiring%20Inquiry:%20Garry%20Singh%20Blog">
+      <button class="button">
+        <i class="fas fa-envelope icon"></i> <!-- Icon for "Hire Garry" -->
+        Hire Garry
+      </button>
+    </a>
+    <a href="https://www.linkedin.com/in/singhgarry/">
+      <button class="button">
+        <i class="fab fa-linkedin-in icon"></i> <!-- Icon for "Connect with Garry" -->
+        Connect with Garry
+      </button>
+    </a>
+  </div>
+  <div class="page-content">
+    {{ content }}
+  </div>
+</div>
