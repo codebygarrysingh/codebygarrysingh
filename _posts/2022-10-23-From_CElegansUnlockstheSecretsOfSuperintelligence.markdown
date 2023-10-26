@@ -1,13 +1,21 @@
 ---
 layout: post
 title:  "From Worm to Wisdom - C. Elegans Unlocks the Secrets of Superintelligence"
-date:   2023-10-23 05:10:40 -0400
-categories: Machine Learning
+date:   2023-10-23
+categories: 
+  - "Machine Learning"
+  - "Artificial Intelligence"
+  - "NeuroScience"
+author: Garry Singh
 ---
 
-I just finished reading Nick Bostrom’s groundbreaking book, “Superintelligence,” where he explores the concept of superintelligent entities and the potential implications of their existence. While much of the book delves into hypothetical scenarios involving advanced AI, there are several fascinating and tangible examples that Bostrom discusses. One such example that has been gaining momentum in the realm of superintelligent AI as we approach technological singularity is the humble nematode worm, Caenorhabditis elegans, or C. elegans (pictured below). This unassuming organism, with its 302 neurons, holds remarkable relevance in our quest to understand the foundations of intelligence. C. elegans is one of the simplest microorganisms, with the lowest number of neurons, yet it possesses a well-characterized nervous system and genetic tractability. It offers valuable insights that resonate with today’s scientific and technological landscape.
+I just finished reading Nick Bostrom’s groundbreaking book, “Superintelligence” where he explores the concept of superintelligent entities and the potential implications of their existence. While much of the book delves into hypothetical scenarios involving advanced AI, there are several fascinating and tangible examples that Bostrom discusses. One such example that has been gaining momentum in the realm of superintelligent AI as we approach technological singularity is the humble nematode worm commonly known as C. elegans or Caenorhabditis elegans (pictured below). This unassuming organism, with its 302 neurons, holds remarkable relevance in our quest to understand the foundations of intelligence. C. elegans is one of the simplest microorganisms, with the lowest number of neurons, yet it possesses a well-characterized nervous system and genetic tractability. It offers valuable insights that resonate with today’s scientific and technological landscape.
 
-![image-title-here](/assets/images/2022-10-23-From_CElegansUnlockstheSecretsOfSuperintelligence.jpg){:class="img-responsive"}
+![An adult hermaphrodite C. elegans worm](/assets/images/2022-10-23-From_CElegansUnlockstheSecretsOfSuperintelligence.jpg){:class="img-responsive"}
+
+<p align="center">
+  <em>An adult hermaphrodite C. elegans worm. <a href="https://en.wikipedia.org/wiki/Caenorhabditis_elegans#/media/File:Adult_Caenorhabditis_elegans.jpg">Source</a></em>
+</p>
 
 C. Elegans are mere a millimeter in length and may appear insignificant to a naked eye, or for that fact someone looking at it under a microscope. The significance is realized when you put on your science hat and you find a well-characterized nervous system with exactly 302 neurons and 7,000 synapses, researchers have painstakingly mapped its neural circuitry. The compactness of its nervous system makes it an ideal subject for investigating the fundamental principles underlying neurobiology and behavior.
 

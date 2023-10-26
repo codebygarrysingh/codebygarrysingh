@@ -1,7 +1,32 @@
 ---
 layout: default
+categories:
+  - Machine Learning
 ---
+
+<head>
+  <style>
+    .tags {
+      margin-bottom: 10px;
+    }
+	.tags .tag{
+		display: inline-block;
+		background-color: #E8E8E8; /* Background color of the capsule */
+		border-radius: 16px; /* Adjust the radius for the desired capsule shape */
+		padding: 4px 12px; /* Adjust padding as needed */
+		margin: 0 6px 6px 0; /* Adjust margins for spacing between tags */
+		font-size: 12px; /* Adjust the font size as needed */
+	  }
+  </style>
+</head>
+
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+<div class="tags">
+  {% for category in page.categories %}
+    <span class="tag">{{ category }}</span>
+  {% endfor %}
+</div>
 
 {{ content }}
