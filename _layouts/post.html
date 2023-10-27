@@ -3,21 +3,10 @@ layout: default
 categories:
   - Machine Learning
 ---
-
 <head>
-  <style>
-    .tags {
-      margin-bottom: 10px;
-    }
-	.tags .tag{
-		display: inline-block;
-		background-color: #E8E8E8; /* Background color of the capsule */
-		border-radius: 16px; /* Adjust the radius for the desired capsule shape */
-		padding: 4px 12px; /* Adjust padding as needed */
-		margin: 0 6px 6px 0; /* Adjust margins for spacing between tags */
-		font-size: 12px; /* Adjust the font size as needed */
-	  }
-  </style>
+  <!-- Other head elements -->
+
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/style/main.css' | relative_url }}">
 </head>
 
 <h1>{{ page.title }}</h1>
@@ -28,5 +17,6 @@ categories:
     <span class="tag">{{ category }}</span>
   {% endfor %}
 </div>
-
+<div class="blog-post">
 {{ content }}
+</div>

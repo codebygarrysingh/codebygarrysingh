@@ -3,45 +3,9 @@ layout: default
 title: Blog
 ---
 
-<style>
-  .tags {
-    margin-bottom: 10px;
-  }
-
-  .tags .tag {
-    display: inline-block;
-    background-color: #E8E8E8;
-    border-radius: 16px;
-    padding: 4px 12px;
-    margin: 0 6px 6px 0;
-    font-size: 12px;
-  }
-  
-  ul {
-    list-style: none; /* Remove list bullet style */
-	margin-left: 0;
-  }
-  /* Apply font styles and make text bold */
-.intro h1 {
-  font-weight: bold;
-}
-
-/* Indent date to the right */
-.blog-posts h2 {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1rem; /* Adjust the size as needed */
-  color: grey; /* Set the title color to black */
-}
-/* Indent date to the right */
-.blog-posts h2 a{
-  display: flex;
-  text-decoration: underline;
-  justify-content: space-between;
-  font-size: 1.1rem; /* Adjust the size as needed */
-  color: black; /* Set the title color to black */
-}
-</style>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ '/assets/style/main.css' | relative_url }}">
+</head>
 
 <script>
   // JavaScript function to filter posts based on category
@@ -87,7 +51,7 @@ title: Blog
   {% for post in site.posts %}
     <li class="post-item" data-category="{{ post.categories[0] }}">
       <!--<img class="img-responsive" src="/assets/images/{{ post.name | remove: '.markdown' }}.jpg" alt="Image Description">-->
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></a> {{ post.date | date: "%b %d, 2023" }}</h2>
       {{ post.excerpt | strip_html | truncatewords: 50 }}
     </li>
   {% endfor %}
