@@ -1,0 +1,154 @@
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media screen and (max-width: 768px) {
+    /* Add body padding for mobile screens only */
+    body {
+        padding: 20px; /* Adjust the padding value as needed */
+    }
+
+    /* Adjust button styles for mobile screens */
+    .button {
+        padding: 8px 16px; /* Adjust the button padding for mobile screens */
+        margin-right: 5px; /* Adjust the margin for mobile screens */
+		margin-bottom: 10px;
+    }
+}
+
+    /*content: url("../images/signature.png");
+    display: inline-block;
+    position: relative;
+    width: 40%; 
+    max-width: 100%;
+    height: auto;
+    max-height: 1000px; 
+    top: 10%;
+	left:-8%;*/
+
+.site-title {
+    font-weight: 500; 
+    font-family: "cursive", "Lucida Handwriting", "Brush Script MT", cursive;
+    color: #005088 !important;
+	font-size:22px;
+	letter-spacing: -1px;
+}
+body{
+    font-family: "Arial", sans-serif; 
+}
+/* Rounded and responsive profile image */
+.profile-image {
+  border-radius: 100%; /* Makes the image rounded */
+  max-width: 20%;    /* Ensures the image is responsive and scales with its container */
+  height: auto;       /* Automatically adjusts the image's height while maintaining the aspect ratio */
+}
+.tags {
+	margin-bottom: 10px;
+}
+.tag{
+	display: inline-block;
+	background-color: none; /* Background color of the capsule */
+	border: 1px solid #005088; /* Adjust the radius for the desired capsule shape */
+	border-radius: 16px;
+	padding: 6px 12px; /* Adjust padding as needed */
+	margin: 6px -2px 16px 0px; /* Adjust margins for spacing between tags */
+	font-size: 14px; /* Adjust the font size as needed */
+	font-weight: bold;
+	color: #005088;
+}
+/* Default styles for the button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #007bff;
+}
+.technical-skill {
+	background-color: lightyellow;
+    text-decoration: underline blue;
+}
+ul {
+    list-style: none;
+    margin-left: 0;
+}
+.skills li {
+    margin-bottom: 20px;
+	padding-bottom: 10px;
+    position: relative;
+}
+.blog-posts li {
+    margin-bottom: 20px;
+	padding-bottom: 10px;
+    position: relative;
+}
+.skills li::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 100%;
+}  
+.tags {
+    margin-bottom: 10px;
+}
+.tags .tag {
+	display: inline-block;
+    background-color: #E8E8E8;
+    border-radius: 16px;
+    padding: 4px 12px;
+    margin: 0 6px 6px 0;
+    font-size: 12px;
+	color:black;
+	border: none;
+}
+ /* Apply font styles and make text bold */
+.intro h1 {
+  font-weight: bold;
+}
+/* Indent date to the right */
+.blog-posts h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem; /* Adjust the size as needed */
+  color: grey; /* Set the title color to black */
+}
+/* Indent date to the right */
+.blog-posts h2 a{
+  display: flex;
+  text-decoration: underline;
+  justify-content: space-between;
+  font-size: 1.1rem; /* Adjust the size as needed */
+  color: black; /* Set the title color to black */
+}
+.icon {
+    margin-right: 10px;
+    color: #fff; /* Set the icon color to white */
+}
+.tag .icon {
+	margin-right: 5px;
+    color: #005088; /* Set the icon color to white */
+}
+b {
+	font-weight:600;
+}  
+.blog-post a {
+    text-decoration: none; /* Remove underlines */
+    color: #3498db; /* Default link color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    border-bottom: 1px solid #3498db; /* Add a bottom border for a trendy effect */
+    padding-bottom: 2px; /* Adjust the padding to control the space between the link and the border */
+}
+
+.blog-post a:hover {
+    color: #e74c3c; /* Change link color on hover */
+    border-color: #e74c3c; /* Change border color on hover */
+	text-decoration:none;
+}
