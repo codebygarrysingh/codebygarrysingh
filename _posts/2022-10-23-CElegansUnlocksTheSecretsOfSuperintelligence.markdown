@@ -8,7 +8,7 @@ categories:
   - "NeuroScience"
 author: Garry Singh
 ---
-I just finished reading <a href="https://nickbostrom.com/">Nick Bostrom’s</a></span> groundbreaking book, <a href="https://www.goodreads.com/en/book/show/20527133">“Superintelligence”</a> where he explores the concept of superintelligent entities and the potential implications of their existence. While much of the book delves into hypothetical scenarios involving advanced AI, there are several fascinating and tangible examples that Bostrom discusses. 
+I just finished reading <a href="https://nickbostrom.com/">Nick Bostrom’s</a> groundbreaking book, <a href="https://www.goodreads.com/en/book/show/20527133">“Superintelligence”</a> where he explores the concept of superintelligent entities and the potential implications of their existence. While much of the book delves into hypothetical scenarios involving advanced AI, there are several fascinating and tangible examples that Bostrom discusses. 
 
 One such example that has been gaining momentum in the realm of superintelligent AI as we approach technological singularity is the humble nematode worm commonly known as <a href="https://en.wikipedia.org/wiki/Caenorhabditis_elegans">C. elegans or Caenorhabditis elegans </a> (pictured below). This unassuming organism, with its 302 neurons, holds remarkable relevance in our quest to understand the foundations of intelligence. C. elegans is one of the simplest microorganisms, with the lowest number of neurons, yet it possesses a well-characterized nervous system and genetic tractability. It offers valuable insights that resonate with today’s scientific and technological landscape.
 
@@ -28,9 +28,10 @@ href="https://www.spaceappschallenge.org/2023/challenges/space-biology-digital-t
 
 In this context, the neural wiring of C. elegans serves as a valuable blueprint for constructing ML models capable of adapting to dynamic and unfamiliar conditions. By studying these models in the extreme environment of space, the intent is to gain insights into how neural circuits and behavior respond to the challenges of living beyond Earth’s gravity. This research not will expands our understanding of neurobiology but also has important implications for ensuring the safety and well-being of astronauts as they embark on extended missions in space.
 
+<br>
+### <b>Open-Source Initiatives</b>
 ---
-## Open-Source Initiatives
-
+<br>
 In addition to the above projects, there are open-source initiatives dedicated to researching and developing common frameworks for C. elegans models:
 
 **OpenWorm Project**
@@ -51,10 +52,10 @@ In addition to the above projects, there are open-source initiatives dedicated t
 
 These open-source initiatives contribute to the broader understanding of C. elegans and computational neuroscience.
 
+<br>
+### <b>Popular Projects Exploring C. elegans Models</b>
 ---
-
-## Popular Projects Exploring C. elegans Models
-
+<br>
 Here are some popular projects that aim to explore C. elegans models and their objectives:
 
 **Neurobehavioral Studies**
