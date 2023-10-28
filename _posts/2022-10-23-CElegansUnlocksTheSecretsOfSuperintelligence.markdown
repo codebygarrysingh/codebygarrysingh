@@ -32,7 +32,7 @@ In this context, the neural wiring of C. elegans serves as a valuable blueprint 
 ### <b>Open-Source Initiatives</b>
 ---
 <br>
-In addition to the above projects, there are open-source initiatives dedicated to researching and developing common frameworks for C. elegans models:
+Here are some open-source initiatives dedicated to researching and developing common frameworks for C. elegans models:
 
 **OpenWorm Project**
    - *Objective*: Creating an open-source digital organism and simulation of C. elegans.
@@ -60,23 +60,23 @@ Here are some popular projects that aim to explore C. elegans models and their o
 
 **Neurobehavioral Studies**
    - *Objective*: Investigating the relationship between neural circuitry in C. elegans and specific behaviors.
-   - *Learn More*: [Neurobehavioral Studies Project](#)
+   - *Learn More*: [Neurobehavioral Studies Project](https://pubmed.ncbi.nlm.nih.gov/32115908/)
 
 **AI-Based Drug Discovery**
    - *Objective*: Utilizing C. elegans neural networks to expedite drug discovery and development.
-   - *Learn More*: [AI-Based Drug Discovery Project](#)
+   - *Learn More*: [AI-Based Drug Discovery Project](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019719/)
 
 **Space Adaptation Research**
    - *Objective*: Studying how C. elegans neural circuits adapt to space environments.
-   - *Learn More*: [Space Adaptation Research Project](#)
+   - *Learn More*: [Space Adaptation Research Project](https://pubmed.ncbi.nlm.nih.gov/24217152/)
 
 **Neuroinformatics and Data Analysis**
    - *Objective*: Developing frameworks for data analysis and simulations of C. elegans neural networks.
-   - *Learn More*: [Neuroinformatics Project](#)
+   - *Learn More*: [Neuroinformatics Project](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8864745/)
 
 **OpenWorm Initiative**
    - *Objective*: Contributing to the OpenWorm project to create a comprehensive simulation of C. elegans.
-   - *Learn More*: [OpenWorm Project](#)
+   - *Learn More*: [OpenWorm Project](https://openworm.org/science.html)
 
 Feel free to explore these projects and their exciting objectives!
 
