@@ -29,12 +29,12 @@ layout: default
         Connect with Garry
       </button>
     </a>
-	<a href="mailto:garry.singh@intelsoft.ca?subject=Hiring%20Inquiry:%20Garry%20Singh%20Blog">
+	<!--<a href="mailto:garry.singh@intelsoft.ca?subject=Hiring%20Inquiry:%20Garry%20Singh%20Blog">
       <button class="button">
         <i class="fas fa-envelope icon"></i>
         Hire Garry
       </button>
-    </a>
+    </a>-->
   </div>
   
   <br><br>
