@@ -9,7 +9,7 @@ layout: default
 </head>
 
 <div class="intro">
-  <img class="img-responsive profile-image" src="/assets/images/logo.jpg" alt="Your Picture">
+  <img class="profile-image" src="/assets/images/logo.jpg" alt="Your Picture">
   <br><br>
   <h1>Hey, This is Garry Singh</h1>
   <p>
