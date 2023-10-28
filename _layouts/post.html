@@ -10,7 +10,8 @@ categories:
 </head>
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<p>Published: {{ page.date | date_to_string }}</p>
+<p>Author: {{ page.author }}</p>
 
 <div class="tags">
   {% for category in page.categories %}

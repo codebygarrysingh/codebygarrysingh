@@ -137,11 +137,18 @@ b {
     border-color: #e74c3c; /* Change border color on hover */
 	text-decoration:none;
 }
+.post-date{
+	display:inline-block;
+}
+.post-date-mob{
+	display:none;
+}
 
 @media screen and (max-width: 768px) {
     body {
         padding: 5px;
 		font-size:18px;
+		padding-top:10%;
     }
     .button {
         padding: 8px 16px;
@@ -156,10 +163,29 @@ b {
 		max-width: 50%; 
 	}
 	.site-title {
-		font-weight: 500; 
+		font-weight: 600; 
 		font-family: "cursive", "Lucida Handwriting", "Brush Script MT", cursive;
 		color: #005088 !important;
-		font-size:26px;
+		font-size:30px;
 		letter-spacing: -1px;
+	}
+	.tags {
+		margin-bottom: 20px;
+	}
+	.tags .tag {
+		display: inline-block;
+		background-color: #E8E8E8;
+		border-radius: 16px;
+		padding: 4px 12px;
+		margin: 0 10px 10px 0;
+		font-size: 16px;
+		color:black;
+		border: none;
+	}
+	.post-date{
+		display:none;
+	}
+	.post-date-mob{
+		display:inline-block;
 	}
 }

@@ -37,14 +37,15 @@ layout: default
     </a>-->
   </div>
   
-  <br><br>
+  <br><br><br>
 
 <div class="blog-posts">
   <ul style="list-style: none; padding-left: 0;margin-left:0;"> <!-- Remove list-style bullets -->
     {% for post in site.posts %}
       <li>
         <!--<img class="img-responsive" src="/assets/images/{{ post.name | remove: '.markdown' }}.jpg" alt="Image Description">-->
-        <h2><a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%b %d, 2023" }}</h2> <!-- Add post date -->
+        <h2><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">{{ post.date | date: "%b %d, 2023" }}</span></h2> <!-- Add post date -->
+		<h2><span class="post-date-mob">{{ post.date | date: "%b %d, 2023" }}</span></h2>
         {{ post.excerpt | strip_html | truncatewords: 50 }} <!-- Shorten excerpt to 20 words -->
       </li>
     {% endfor %}
