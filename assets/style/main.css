@@ -1,18 +1,3 @@
-/* Media query for screens smaller than 768px (typical mobile screens) */
-@media screen and (max-width: 768px) {
-    /* Add body padding for mobile screens only */
-    body {
-        padding: 20px; /* Adjust the padding value as needed */
-    }
-
-    /* Adjust button styles for mobile screens */
-    .button {
-        padding: 8px 16px; /* Adjust the button padding for mobile screens */
-        margin-right: 5px; /* Adjust the margin for mobile screens */
-		margin-bottom: 10px;
-    }
-}
-
     /*content: url("../images/signature.png");
     display: inline-block;
     position: relative;
@@ -151,4 +136,30 @@ b {
     color: #e74c3c; /* Change link color on hover */
     border-color: #e74c3c; /* Change border color on hover */
 	text-decoration:none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 5px;
+		font-size:18px;
+    }
+    .button {
+        padding: 8px 16px;
+        margin-right: 5px;
+		margin-bottom: 10px;
+		width: 100%;
+		font-size: 16px;
+    }
+	.profile-image {
+		width:50%;
+		height:50%;
+		max-width: 50%; 
+	}
+	.site-title {
+		font-weight: 500; 
+		font-family: "cursive", "Lucida Handwriting", "Brush Script MT", cursive;
+		color: #005088 !important;
+		font-size:26px;
+		letter-spacing: -1px;
+	}
 }
