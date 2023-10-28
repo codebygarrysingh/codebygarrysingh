@@ -1,12 +1,31 @@
-    /*content: url("../images/signature.png");
-    display: inline-block;
-    position: relative;
-    width: 40%; 
-    max-width: 100%;
-    height: auto;
-    max-height: 1000px; 
-    top: 10%;
-	left:-8%;*/
+.publications-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.coming-soon-tag {
+  display: inline-block;
+  background-color: #ff5722; /* Change the color as desired */
+  color: white;
+  padding: 1px 4px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+  animation: glowing 2s infinite; /* Add a glowing animation */
+  font-size: 12px;
+}
+@keyframes glowing {
+  0% {
+	box-shadow: 0 0 5px #ff5722;
+  }
+  50% {
+	box-shadow: 0 0 20px #ff5722, 0 0 30px #ff5722;
+  }
+  100% {
+	box-shadow: 0 0 5px #ff5722;
+  }	  
+}
 .site-header{
 	margin-top:-5px;
 }
@@ -74,6 +93,9 @@ ul {
 	padding-bottom: 10px;
     position: relative;
 }
+.blog-posts h2 {
+	margin-bottom: 5px;
+}
 .skills li::after {
     content: "";
     display: block;
@@ -121,17 +143,17 @@ ul {
 }
 .tag .icon {
 	margin-right: 5px;
-    color: #005088; /* Set the icon color to white */
+    color: #005088;
 }
 b {
 	font-weight:600;
 }  
 .blog-post a {
-    text-decoration: none; /* Remove underlines */
-    color: #3498db; /* Default link color */
-    transition: color 0.3s; /* Smooth color transition on hover */
-    border-bottom: 1px solid #3498db; /* Add a bottom border for a trendy effect */
-    padding-bottom: 2px; /* Adjust the padding to control the space between the link and the border */
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+    border-bottom: 1px solid #3498db;
+    padding-bottom: 2px; 
 }
 
 .blog-post a:hover {
