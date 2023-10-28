@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
+
 <head>
   <!-- Other head elements -->
-
   <link rel="stylesheet" type="text/css" href="{{ '/assets/style/main.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
+<body>
 <div class="intro">
   <img class="profile-image" src="/assets/images/logo.jpg" alt="Your Picture">
   <br><br>
@@ -35,12 +36,16 @@ layout: default
         Hire Garry
       </button>
     </a>-->
-  </div>
+</div>
   
-  <br><br><br>
+<br><br><br>
 
 <div class="blog-posts">
-  <ul style="list-style: none; padding-left: 0;margin-left:0;"> <!-- Remove list-style bullets -->
+  <!-- Latest Publications -->
+  <h1 class="publications-title">Latest Publications</h1>
+  <hr>
+  <br>
+  <ul> <!-- Remove list-style bullets -->
     {% for post in site.posts %}
       <li>
         <!--<img class="img-responsive" src="/assets/images/{{ post.name | remove: '.markdown' }}.jpg" alt="Image Description">-->
@@ -50,4 +55,16 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+  
+  <!-- Upcoming Publications -->
+  <h1 class="publications-title">Upcoming Publications</h1>
+    <hr>
+  <br>
+  <ul class="upcoming-publications-list">
+    <li>AI compliance and regulation: what does it mean for your organization<span class="coming-soon-tag">Coming Soon</span></li>
+    <li>Technological Singularity: Are we there yet?<span class="coming-soon-tag">Coming Soon</span></li>
+    <li>Supervised Learning: All you need to know to get started<span class="coming-soon-tag">Coming Soon</span></li>
+    <!-- Add more upcoming topics as needed -->
+  </ul>
 </div>
+</body>
