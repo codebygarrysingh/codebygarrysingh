@@ -17,6 +17,7 @@ layout: default
     I'm a passionate technology enthusiast and a dedicated blogger. Here, I share my thoughts on transformative IT solutions, innovation, and more.
   </p>
 </div>
+<br>
 <div>
     <a href="/about">
       <button class="button">
