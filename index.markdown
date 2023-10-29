@@ -61,10 +61,8 @@ layout: default
     <hr>
   <br>
   <ul class="upcoming-publications-list">
-    <li>AI compliance and regulation: what does it mean for your organization<span class="coming-soon-tag">Coming Soon</span></li>
     <li>Technological Singularity: Are we there yet?<span class="coming-soon-tag">Coming Soon</span></li>
     <li>Supervised Learning: All you need to know to get started<span class="coming-soon-tag">Coming Soon</span></li>
-    <!-- Add more upcoming topics as needed -->
   </ul>
 </div>
 </body>
