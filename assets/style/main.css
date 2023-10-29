@@ -69,6 +69,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     margin-right: 10px;
+	font-size: 16px;
     transition: background-color 0.3s;
 }
 
@@ -181,7 +182,7 @@ b {
         margin-right: 5px;
 		margin-bottom: 10px;
 		width: 100%;
-		font-size: 16px;
+		font-size: 18px;
     }
 	.profile-image {
 		width:50%;
