@@ -1,0 +1,62 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ '/assets/style/main.css' | relative_url }}">
+</head>
+
+<script>
+  // JavaScript function to filter posts based on category
+  function filterPosts(category) {
+    // Get all post items
+    var posts = document.querySelectorAll('.post-item');
+    
+    // Hide all posts
+    for (var i = 0; i < posts.length; i++) {
+      posts[i].style.display = 'none';
+    }
+    
+    // Show posts that match the selected category
+    if (category === 'Latest Blogs') {
+      var latestPosts = document.querySelectorAll('.post-item');
+      for (var i = 0; i < latestPosts.length; i++) {
+        latestPosts[i].style.display = 'block';
+      }
+      document.getElementById('blog-title').textContent = 'Latest Blogs';
+    } else {
+      var selectedPosts = document.querySelectorAll('.post-item[data-category="' + category + '"]');
+      for (var i = 0; i < selectedPosts.length; i++) {
+        selectedPosts[i].style.display = 'block';
+      }
+      document.getElementById('blog-title').textContent = category;
+    }
+  }
+</script>
+
+
+
+<p class="tags"> 
+  <a href="javascript:void(0);" onclick="filterPosts('Latest Blogs')" class="tag">Latest Blogs</a>
+  {% for category in site.posts[0].categories %}
+    <a href="javascript:void(0);" onclick="filterPosts('{{ category }}')" class="tag">{{ category }}</a>
+  {% endfor %}
+</p>
+
+<h1 id="blog-title">Latest Blogs</h1>
+
+<div class="blog-posts">
+<ul>
+  {% for post in site.posts %}
+    <li class="post-item" data-category="{{ post.categories[0] }}">
+      <!--<img class="img-responsive" src="/assets/images/{{ post.name | remove: '.markdown' }}.jpg" alt="Image Description">-->
+              <h2><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">{{ post.date | date: "%b %d, 2023" }}</span></h2> <!-- Add post date -->
+		<h2><span class="post-date-mob">{{ post.date | date: "%b %d, 2023" }}</span></h2>
+	  
+      {{ post.excerpt | strip_html | truncatewords: 50 }}
+    </li>
+  {% endfor %}
+</ul>
+</div>
