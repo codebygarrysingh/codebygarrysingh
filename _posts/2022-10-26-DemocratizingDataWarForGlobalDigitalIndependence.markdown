@@ -8,6 +8,12 @@ categories:
   - "Blockchain"
 author: Garry Singh
 ---
+<div class="summary">
+   <span class="fas fa-robot icon"><b> In the Brief</b></span>
+  <p>	
+	The article discusses the concept of "surveillance capitalism" and how it is eroding digital democracy and sacrificing user data. It proposes a solution of a decentralized blockchain system that would empower users to regain control over their data.
+  </p>
+</div>
 <br>
 There is an interesting terminology of "surveillance capitalism" that <a href="https://en.wikipedia.org/wiki/Johann_Hari" target="_blank">Johann Hari</a> shares in his Best Seller <a href="https://www.goodreads.com/book/show/57933306-stolen-focus" target="_blank">"Stolen Focus"</a>. Johann sheds light on how average person surrenders the most important asset "data" to capitalism and how data is commontidized in exchange for targeted marketing and financial benefits of corporations. This raises a crucial question about whether, in our pursuit of 'free to use' services, we are compromising our digital democracy and sacrificing the most precious asset of the modern era – our data.
 

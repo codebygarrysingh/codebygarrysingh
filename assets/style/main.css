@@ -1,8 +1,35 @@
+body{
+  font-family: "Arial", sans-serif; 
+}
 .publications-title {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 0px;
+}
+.icon {
+    margin-right: 10px;
+    color: #fff; /* Set the icon color to white */
+}
+.tag .icon {
+	margin-right: 5px;
+    color: #005088;
+}
+.summary{
+	background-color: #ECF0F5; 
+	padding: 20px; 
+	border-radius: 5px; 
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.summary h2{
+	color: #333;
+}
+.summary .icon{
+	color: #005088;
+	margin-bottom:10px;
+}
+.summary .icon b{
+	font-family: "Arial", sans-serif; 
 }
 .coming-soon-tag {
   display: inline-block;
@@ -36,9 +63,7 @@
 	font-size:22px;
 	letter-spacing: -1px;
 }
-body{
-    font-family: "Arial", sans-serif; 
-}
+
 /* Rounded and responsive profile image */
 .profile-image {
   border-radius: 100%; /* Makes the image rounded */
@@ -138,14 +163,7 @@ ul {
   font-size: 1.1rem; /* Adjust the size as needed */
   color: black; /* Set the title color to black */
 }
-.icon {
-    margin-right: 10px;
-    color: #fff; /* Set the icon color to white */
-}
-.tag .icon {
-	margin-right: 5px;
-    color: #005088;
-}
+
 b {
 	font-weight:600;
 }  

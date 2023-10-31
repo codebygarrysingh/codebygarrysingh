@@ -3,12 +3,19 @@ layout: post
 title:  "AI Compliance and Regulation Landscape: Balancing Innovation with Ethical Challenges"
 date:   2023-10-29
 categories: 
-  - "Machine Learning"
+  - "AI Regulation"
   - "Artificial Intelligence"
   - "Data Governance"
-  - "AI Regulation"
 author: Garry Singh
 ---
+<div class="summary">
+   <span class="fas fa-robot icon"><b> In the Brief</b></span>
+  <p>
+	AI is evolving at a rapid pace and concerns about the fair and ethical use of technology and data are deepening. To address these concerns, many countries and regions are actively working on developing guidelines and regulations. The EU has introduced the AI Act in 2021 to regulate AI systems' safety and ethics. Many leading nations have adopted similar approaches.
+
+Various tools and initiatives are in progress to address ethical, compliance, and quality aspects of AI/ML applications. These tools and initiatives aim to mitigate risks associated with AI deployment, such as risks to privacy, human dignity, fundamental liberties, and democracy.
+  </p>
+</div>
 <br>
 As we progress towards growing <a href="https://dataconomy.com/2023/03/09/what-is-autonomous-artificial-intelligence/" target="_blank">autonomy</a> and <a href="https://www.gartner.com/en/information-technology/glossary/adaptive-ai" target="_blank">adaptivity</a> of Machine Learning systems, the concerns related to fair and ethical use of technology and data are deepening. While the world grappeled with the unprecidented spread of Covid-19 and had to brace for the impact from one of a kind epidemic, there was another remarkable development taking its majestic steps towards maturity. We saw a rise in popularity of <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence" target="_blank">Generalized AI</a> models more than ever before with more advanced <a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank">Generative AI</a> models, Computer vision & speech models and their applications take over the market. There is a saying that goes around in Silicon Valley that goes "Keep innovating and laws/regulations will eventually catch up". 
 
