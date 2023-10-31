@@ -52,7 +52,7 @@ layout: default
         <!--<img class="img-responsive" src="/assets/images/{{ post.name | remove: '.markdown' }}.jpg" alt="Image Description">-->
         <h2><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">{{ post.date | date: "%b %d, 2023" }}</span></h2> <!-- Add post date -->
 		<h2><span class="post-date-mob">{{ post.date | date: "%b %d, 2023" }}</span></h2>
-        {{ post.excerpt | strip_html | truncatewords: 50 }} <!-- Shorten excerpt to 20 words -->
+        {{ post.excerpt | strip_html | replace: "In the Brief", "" | truncatewords: 50 }}
       </li>
     {% endfor %}
   </ul>

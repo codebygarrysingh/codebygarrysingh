@@ -8,6 +8,16 @@ categories:
   - "NeuroScience"
 author: Garry Singh
 ---
+
+<div class="summary">
+   <span class="fas fa-robot icon"><b> In the Brief</b></span>
+  <p>
+	Nick Bostrom explores the concept of superintelligent entities and the potential implications of their existence in his book, "Superintelligence." One example of a superintelligent entity that he discusses is the nematode worm C. elegans. Thisworm has a well-characterized nervous system with 302 neurons and 7,000 synapses. Researchers are able to map its neural circuitry, which has led to many discoveries in the neurobiology realm.
+
+The study of C. elegans has important implications for astronauts as they embark on extended missions in space. The neural wiring of C. elegans serves as a valuable blueprint for constructing ML models capable of adapting to dynamic and unfamiliar conditions.
+  </p>
+</div>
+
 <br>
 I just finished reading <a href="https://nickbostrom.com/" target="_blank">Nick Bostrom’s</a> groundbreaking book, <a href="https://www.goodreads.com/en/book/show/20527133" target="_blank">“Superintelligence”</a> where he explores the concept of superintelligent entities and the potential implications of their existence. While much of the book delves into hypothetical scenarios involving advanced AI, there are several fascinating and tangible examples that Bostrom discusses. 
 
