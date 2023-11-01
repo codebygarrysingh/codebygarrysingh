@@ -17,7 +17,7 @@ permalink: /AIinAction/blogSummarizerApp/
 
 ## <b>Blog Summarizer App</b> <span class="tag">[Github](https://github.com/codebygarrysingh/blog-summarizer-app/){:target="_blank"}</span>
 
-The motivation behind creating a Blog Summarizer App is to showcase a common real-world implementation of Large Language Models (LLM) & Generative AI. Powered by Python and the OpenAI API, this app empowers content creators and bloggers to provide their readers with concise and coherent summaries, ensuring a smoother understanding of the main points.
+The motivation behind creating a Blog Summarizer App is to showcase a common real-world implementation of <a href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank">Large Language Models (LLM)</a> & <a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank">Generative AI</a>. Powered by Python and the OpenAI API, this app empowers content creators and bloggers to provide their readers with concise and coherent summaries, ensuring a smoother understanding of the main points.
 <br><br>
 ### <b>Key Features</b>
 <hr class="custom-hr">
