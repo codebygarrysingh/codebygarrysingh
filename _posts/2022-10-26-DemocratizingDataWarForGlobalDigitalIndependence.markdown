@@ -11,7 +11,7 @@ author: Garry Singh
 <div class="summary">
    <span class="fas fa-robot icon"><b> In the Brief</b></span>
   <p>	
-	The article discusses the concept of "surveillance capitalism" and how it is eroding digital democracy and sacrificing user data. It proposes a solution of a decentralized blockchain system that would empower users to regain control over their data.
+	The article discusses the concept of "surveillance capitalism" and how it affects the average person. It also sheds light on how data is being commoditized and how this puts individuals' privacy at risk. Finally, it proposes a solution of a decentralized blockchain system that would enable users to take control of their data and protect their privacy.
   </p>
 </div>
 <br>

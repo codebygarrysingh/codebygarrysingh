@@ -1,0 +1,39 @@
+---
+layout: default
+title: AI in Action
+permalink: /AIinAction/
+---
+
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/style/main.css' | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/style/aiInAction.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<div class="ai-in-action">
+  <h1>Welcome to the Showcase of AI in Action</h1>
+  <p>Explore the featured apps and discover the stories behind AI in action!</p>
+<br>
+  <section class="app-cards">
+
+    {% for app in site.data.apps %}
+ 
+	<a href="{{ app.url | relative_url }}"
+	class="read-more">
+
+      <div class="app-card">
+        <div class="app-card-inner">
+          <h3><span class="fas fa-code icon"></span><u>{{ app.title }}</u></h3>
+		     <p class="tags">
+            {% assign tags = app.tags | split: "," %}
+            {% for tag in tags %}
+              <span class="tag">{{ tag | strip }}</span>
+            {% endfor %}
+          </p>
+          <p class="app-description">{{ app.short_description }}</p>
+        </div>
+      </div>
+	  </a>
+    {% endfor %}
+  </section>
+</div>

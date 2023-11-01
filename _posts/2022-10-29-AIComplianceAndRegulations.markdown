@@ -9,11 +9,9 @@ categories:
 author: Garry Singh
 ---
 <div class="summary">
-   <span class="fas fa-robot icon"><b> In the Brief</b></span>
+     <span class="fas fa-robot icon"><b> In the Brief</b></span>
   <p>
-	AI is evolving at a rapid pace and concerns about the fair and ethical use of technology and data are deepening. To address these concerns, many countries and regions are actively working on developing guidelines and regulations. The EU has introduced the AI Act in 2021 to regulate AI systems' safety and ethics. Many leading nations have adopted similar approaches.
-
-Various tools and initiatives are in progress to address ethical, compliance, and quality aspects of AI/ML applications. These tools and initiatives aim to mitigate risks associated with AI deployment, such as risks to privacy, human dignity, fundamental liberties, and democracy.
+    As the world progresses towards more autonomous and adaptable machine learning systems, the concerns over the fair and ethical use of technology and data deepen. With the rise in popularity of generalized AI models, many countries are actively working on developing guidelines and regulations to address the ethical and compliance challenges posed by AI and machine learning technologies. The EU became pioneers in this effort by introducing the AI Act in 2021, which many leading nations have followed with similar approaches. These guidelines and regulations are designed to address issues such as bias, fairness, transparency, privacy, security, and more in the development and deployment of artificial intelligence technologies.
   </p>
 </div>
 <br>

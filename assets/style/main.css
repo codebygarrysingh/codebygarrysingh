@@ -1,5 +1,6 @@
 body{
   font-family: "Arial", sans-serif; 
+  font-size:16px;
 }
 .publications-title {
   font-size: 24px;
@@ -186,7 +187,6 @@ b {
 .post-date-mob{
 	display:none;
 }
-
 @media screen and (max-width: 768px) {
     body {
         padding: 5px;
