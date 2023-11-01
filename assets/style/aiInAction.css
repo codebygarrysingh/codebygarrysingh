@@ -1,0 +1,67 @@
+body{
+  font-family: "Arial", sans-serif; 
+  font-size:16px;
+}
+.app-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.app-card {
+  background-color: #fff;
+  overflow: hidden;
+  transition: transform 0.2s;
+  max-width: 100%;
+  color:black;
+}
+
+.app-card:hover {
+  transform: scale(1.01);
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.app-card {
+  position: relative;
+}
+
+.read-more {
+  position: relative;
+ 
+  bottom: 10px; /* Adjust this value to control the vertical position */
+  right: 10px; /* Adjust this value to control the horizontal position */
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.fas{
+	color:#005088;
+}
+.tag{
+	display: inline-block;
+    border-radius: 16px;
+    padding: 4px 12px;
+    margin: 0 6px 6px 0;
+    font-size: 12px;
+	color:black;
+}
+.tag::before{
+	content: "@ ";
+}
+/* Reduce the spacing before and after the custom horizontal rule */
+.custom-hr {
+  margin-top: -10px; /* Remove margin above the <hr> */
+  margin-bottom: 0px; /* Remove margin below the <hr> */
+  padding-top: 0; /* Remove padding above the <hr> (if any) */
+  padding-bottom: 0; /* Remove padding below the <hr> (if any) */
+  border: none; /* Remove the default border, if any */
+  border-top: 1px solid #000; /* Optionally, add your own custom border style */
+}
