@@ -45,10 +45,11 @@ This table provides an overview of various AI regulation and compliance classifi
 | Intellectual Property Compliance    | Balancing intellectual property rights and AI development. Addressing the relationship between intellectual property law and generative AI. Example: IPO's consultation on Text and Data Mining. |
 
 <br>
-
 **Potential Solution:The Quality Gate**
+<hr>
+Veteran UK Scientist, Sir Patrick Vallance, proposed use of <a href="https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach/white-paper#:~:text=That's%20why%20we%20are%20confirming,get%20their%20products%20to%20market." target="_blank">a regulatory Sandbox</a> that will bring together regulators to support innovators directly and help them get their products to market. The sandbox will also enable us to understand how regulation interacts with new technologies and refine this interaction where necessary.
 
-Creating a tool to act as a quality or compliance gate for consumer-facing or internal business applications, similar to SonarQube for software code, can indeed be a valuable idea. Such a tool could help ensure that AI/ML applications adhere to ethical guidelines, regulatory requirements, and best practices. Here are some considerations to keep in mind:
+In addition to Sandbox that regulates the pre-development phase of AI, creating a tool to act as a quality or compliance gate post-development and pre-production can indeed be a valuable idea. Such a tool could help ensure that AI/ML applications adhere to ethical guidelines, regulatory requirements, and best practices. Here are some considerations to keep in mind:
 
 
 1. Requirement Identification: Identify the relevant ethical principles and compliance requirements for your application domain.
@@ -58,10 +59,12 @@ Creating a tool to act as a quality or compliance gate for consumer-facing or in
 5. Feedback Mechanism: Provide mechanisms for users to report false positives/negatives and provide feedback to improve the tool's performance.
 6. Regular Updates: Keep the tool updated as new regulations, guidelines, and best practices emerge.
 
+<br>
+**Existing measures & tools**
+<hr>
+
 There are several tools and initiatives in progress that aimed to address ethical, compliance, and quality aspects of AI/ML applications. I recommend checking the latest resources for the most up-to-date information. Here are a few tools and projects that were noteworthy.
 
----
-<br>
 1. [IBM AI Fairness 360](https://www.ibm.com/cloud/learn/ai-fairness-360){:target="_blank"} This toolkit from IBM provides a comprehensive set of metrics to measure and address bias in AI systems. It offers a collection of algorithms, tutorials, and example code to help developers and data scientists detect and mitigate bias in their models.
 2. [OpenAI's Fairness and Safety Initiatives](https://openai.com/research/fairness){:target="_blank"} OpenAI has been actively working on providing safety and ethics guidelines for AI research and deployment. While they don't offer a specific tool like SonarQube, they publish documentation and guidelines on topics like bias, transparency, and accountability.
 3. [Google's Responsible AI Practices](https://cloud.google.com/solutions/ai-ml){:target="_blank"} Google has been a leader in AI ethics and provides resources to developers for building responsible AI systems. They offer tools like the What-If Tool for understanding model behavior and fairness.
