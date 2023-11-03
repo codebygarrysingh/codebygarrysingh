@@ -18,10 +18,11 @@ permalink: /AIinAction/
 
     {% for app in site.data.apps %}
  
-	<a href="{{ app.url | relative_url }}"
-	class="read-more">
+	
 <hr>
       <div class="app-card">
+	  <a href="{{ app.url | relative_url }}"
+	class="read-more">
 	  			<!-- Add the video element here -->
           <h4><span class="fas fa-code icon"></span><u>{{ app.title }}</u></h4>	     <p class="tags">
             {% assign tags = app.tags | split: "," %}
@@ -29,6 +30,7 @@ permalink: /AIinAction/
               <span class="tag">{{ tag | strip }}</span>
             {% endfor %}
           </p>
+		  </a>
 	  <div class="app-video">
 			<video controls>
 			  <source src="{{ app.video_url | relative_url }}" type="video/mp4">
@@ -42,7 +44,6 @@ permalink: /AIinAction/
           <p class="app-description">{{ app.short_description }}</p>
         </div>
       </div>
-	  </a>
     {% endfor %}
   </section>
 </div>
