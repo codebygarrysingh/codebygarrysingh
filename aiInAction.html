@@ -20,16 +20,25 @@ permalink: /AIinAction/
  
 	<a href="{{ app.url | relative_url }}"
 	class="read-more">
-
+<hr>
       <div class="app-card">
-        <div class="app-card-inner">
-          <h3><span class="fas fa-code icon"></span><u>{{ app.title }}</u></h3>
-		     <p class="tags">
+	  			<!-- Add the video element here -->
+          <h4><span class="fas fa-code icon"></span><u>{{ app.title }}</u></h4>	     <p class="tags">
             {% assign tags = app.tags | split: "," %}
             {% for tag in tags %}
               <span class="tag">{{ tag | strip }}</span>
             {% endfor %}
           </p>
+	  <div class="app-video">
+			<video controls>
+			  <source src="{{ app.video_url | relative_url }}" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+			
+
+		  </div>
+        <div class="app-card-inner">
+
           <p class="app-description">{{ app.short_description }}</p>
         </div>
       </div>

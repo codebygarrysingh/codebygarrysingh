@@ -123,15 +123,7 @@ ul {
 .blog-posts h2 {
 	margin-bottom: 5px;
 }
-.skills li::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #ccc;
-    position: absolute;
-    top: 100%;
-}  
+
 .tags {
     margin-bottom: 10px;
 }
@@ -233,4 +225,15 @@ b {
 	.post-date-mob{
 		display:inline-block;
 	}
+}
+
+/* Reduce the spacing before and after the custom horizontal rule */
+hr {
+  margin-top: 0px; /* Remove margin above the <hr> */
+  margin-bottom: 5px; /* Remove margin below the <hr> */
+  padding-top: 0; /* Remove padding above the <hr> (if any) */
+  padding-bottom: 0; /* Remove padding below the <hr> (if any) */
+  border: none; /* Remove the default border, if any */
+  border-top: 1px solid lightgrey; /* Optionally, add your own custom border style */
+
 }
