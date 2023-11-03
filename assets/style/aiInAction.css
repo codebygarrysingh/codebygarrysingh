@@ -16,10 +16,6 @@ body{
   color:black;
 }
 
-.app-card:hover {
-  transform: scale(1.01);
-}
-
 a {
 	text-decoration: none;
 }
@@ -56,12 +52,11 @@ a:hover {
 .tag::before{
 	content: "@ ";
 }
-/* Reduce the spacing before and after the custom horizontal rule */
-.custom-hr {
-  margin-top: -10px; /* Remove margin above the <hr> */
-  margin-bottom: 0px; /* Remove margin below the <hr> */
-  padding-top: 0; /* Remove padding above the <hr> (if any) */
-  padding-bottom: 0; /* Remove padding below the <hr> (if any) */
-  border: none; /* Remove the default border, if any */
-  border-top: 1px solid #000; /* Optionally, add your own custom border style */
+.app-video {
+  /* Adjust video container styles as needed */
+  margin-left: 0px; 
+  margin-right: 20px; /* Add some space between the card and the video */
+}
+video {
+  max-width: 100%; /* Ensure the video doesn't overflow the container */
 }

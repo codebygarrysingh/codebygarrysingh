@@ -44,11 +44,12 @@ layout: default
 <div class="blog-posts">
   <!-- Latest Publications -->
   <h1 class="publications-title">Latest Publications</h1>
-  <hr>
+
   <br>
   <ul> <!-- Remove list-style bullets -->
     {% for post in site.posts %}
       <li>
+	  	<hr>
         <!--<img class="img-responsive" src="/assets/images/{{ post.name | remove: '.markdown' }}.jpg" alt="Image Description">-->
         <h2><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">{{ post.date | date: "%b %d, 2023" }}</span></h2> <!-- Add post date -->
 		<h2><span class="post-date-mob">{{ post.date | date: "%b %d, 2023" }}</span></h2>
@@ -59,11 +60,10 @@ layout: default
   
   <!-- Upcoming Publications -->
   <h1 class="publications-title">Upcoming Publications</h1>
-    <hr>
   <br>
   <ul class="upcoming-publications-list">
-    <li>Technological Singularity: Are we there yet?<span class="coming-soon-tag">Coming Soon</span></li>
-    <li>Supervised Learning: All you need to know to get started<span class="coming-soon-tag">Coming Soon</span></li>
+    <li>	<hr>Technological Singularity: Are we there yet?<span class="coming-soon-tag">Coming Soon</span></li>
+    <li>	<hr>Supervised Learning: All you need to know to get started<span class="coming-soon-tag">Coming Soon</span></li>
   </ul>
 </div>
 </body>
