@@ -18,28 +18,6 @@ layout: default
   </p>
 </div>
 <br>
-<div>
-    <a href="/about">
-      <button class="button">
-        <i class="fas fa-cogs icon"></i> 
-        What I bring to the table
-      </button>
-    </a>
-    <a href="https://www.linkedin.com/in/singhgarry/">
-      <button class="button">
-        <i class="fab fa-linkedin-in icon"></i> 
-        Connect with Garry
-      </button>
-    </a>
-	<!--<a href="mailto:garry.singh@intelsoft.ca?subject=Hiring%20Inquiry:%20Garry%20Singh%20Blog">
-      <button class="button">
-        <i class="fas fa-envelope icon"></i>
-        Hire Garry
-      </button>
-    </a>-->
-</div>
-  
-<br><br><br>
 
 <div class="blog-posts">
   <!-- Latest Publications -->
