@@ -10,12 +10,22 @@ layout: default
 
 <body>
 <div class="intro">
-  <img class="profile-image" src="/assets/images/logo.jpg" alt="Your Picture">
-  <br><br>
-  <h1>Hey, This is Garry Singh</h1>
-  <p>
-    I'm a passionate technology enthusiast and a dedicated blogger. Here, I share my thoughts on transformative IT solutions, innovation, and more.
-  </p>
+  <div class="text">
+    <p class="academics-summary">
+      I am currently pursuing a <a href="https://www.ox.ac.uk/admissions/graduate/courses/msc-software-engineering" target="_blank">MSC in Computer Engineering</a> at the University of Oxford, UK. My academic journey began with a <a href="https://www.sheridancollege.ca/en/about/faculties/applied-science-technology" target="_blank">B.Eng. in Computer Engineering</a> from Sheridan Institute of Technology in Canada, complemented by a <a href="https://www.vmsuniversity.in/course/bachelor-of-business-administration-bba/">Bachelor's in Business Administration</a> from Vinayaka Missions Sikkim University in India.
+	</p>
+<p class="work-summary">
+With a background spanning over a decade, I have served in pivotal roles as a Software Engineering Lead, Senior Data Engineer & Enterprise Data Integration Consultant with major North American banks including <a href="https://www.rbccm.com/en/gib/technology.page" target="_blank">Royal Bank of Canada</a> & <a href="https://jobs.td.com/en-CA/job-opportunities/corporate/information-technology/" target="_blank">Toronto Dominion Bank</a>, renowned retail giant <a href="https://www.albertsons.com/">Albertsons</a>, <a href="https://www.canada.ca/en/employment-social-development/programs/benefits-delivery-modernization.html" target="_blank">Government of Canada</a> and <a href="https://www.ibm.com/ca-en" target="_blank">IBM</a>.
+</p>
+<p class="entrepreneurship-summary">
+I've also ventured into entrepreneurship, founding <a href="https://intelsoft.ca/" target="_blank">IntelSoft</a>, a company specializing in big data and business intelligence solutions. </p>
+<p class="learning-summary">
+I am a <a href="https://learn.microsoft.com/api/credentials/share/en-us/GurpartapSingh-5490/69A18CDE02E48F54?sharingId=A4A35DC5E5B5F9F6" target="_blank">certified Microsoft Applied AI Engineering Practitioner on Azure Cloud</a> and have completed <a href="https://www.coursera.org/account/accomplishments/certificate/" target="_blank">specializations in Machine Learning</a> and <a href="https://coursera.org/share/667eb8e180ea744cc543269a96794b6e" target="_blank">Mathematics for Machine Learning and Data Science</a> from Stanford University and Deep Learning AI.
+</p>
+
+  </div>
+	  <img class="profile-image" src="/assets/images/logo.jpg" alt="Your Picture">
+	  
 </div>
 <br>
 
@@ -40,7 +50,6 @@ layout: default
   <h1 class="publications-title">Upcoming Publications</h1>
   <br>
   <ul class="upcoming-publications-list">
-    <li>	<hr>Technological Singularity: Are we there yet?<span class="coming-soon-tag">Coming Soon</span></li>
     <li>	<hr>Supervised Learning: All you need to know to get started<span class="coming-soon-tag">Coming Soon</span></li>
   </ul>
 </div>

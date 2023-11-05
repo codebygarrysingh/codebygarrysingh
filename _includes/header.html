@@ -1,3 +1,6 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
 <header class="site-header">
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
@@ -23,6 +26,22 @@
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+		  
+		   <!-- Add GitHub, LinkedIn, and Twitter links here with Font Awesome icons -->
+<a class="social-link" href="https://github.com/codebygarrysingh" target="_blank">
+  <i class="fab fa-github"></i> 
+</a>
+
+<a class="social-link" href="https://www.linkedin.com/in/singhgarry/" target="_blank">
+  <i class="fab fa-linkedin"></i> 
+</a>
+
+<a class="social-link" href="https://twitter.com/thisisgarysingh" target="_blank">
+  <i class="fab fa-twitter"></i> 
+</a>
+<a class="social-link" href="https://medium.com/@thisisgarrysingh" target="_blank">
+  <i class="fab fa-medium"></i> 
+</a>
         </div>
       </nav>
     {%- endif -%}
