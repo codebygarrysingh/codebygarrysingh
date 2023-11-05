@@ -1,8 +1,9 @@
 body{
   font-family: "Arial", sans-serif; 
-  font-size:16px;
-  padding-left:10%;
-  padding-right:10%;
+  font-size:15px;
+  padding-left:11%;
+  padding-right:11%;
+  color:black;
 }
 .site-nav{
 	font-weight:550;
@@ -73,11 +74,13 @@ body{
 /* Rounded and responsive profile image */
 .profile-image {
   border-radius: 4%; /* Makes the image rounded */
-  max-width: 35%;    /* Ensures the image is responsive and scales with its container */
-  height: auto;   /* Automatically adjusts the image's height while maintaining the aspect ratio */
-  margin-left: 30px; /* Add spacing between the image and text */
+  max-width: 32%; 
+  margin-left: 35px;
+ 
 }
 .text {
+  display: inline-block;
+  vertical-align: top;
   flex: 1; /* Allow the text to take up remaining space */
 }
 .tags {
@@ -149,7 +152,7 @@ ul {
 
 .intro {
   display: flex; /* Use flexbox to align items horizontally */
-  margin-top: 2%;
+  margin-top: 1%;
   align-items: flex-start; /* Align items to the top of the container */
 }
 /* Indent date to the right */
@@ -171,7 +174,7 @@ ul {
 b {
 	font-weight:600;
 }  
-.blog-post a {
+.blog-post a{
     text-decoration: none;
     color: #3498db;
     transition: color 0.3s;
@@ -179,7 +182,7 @@ b {
     padding-bottom: 2px; 
 }
 
-.blog-post a:hover {
+.blog-post a:hover, .intro a:hover {
     color: #e74c3c; /* Change link color on hover */
     border-color: #e74c3c; /* Change border color on hover */
 	text-decoration:none;
@@ -243,12 +246,13 @@ b {
         text-align: left;
     }
   .profile-image {
-    max-width: 50%; /* Adjust the image width as needed */
+    max-width: 100%; /* Adjust the image width as needed */
     margin-left: 0; /* Remove spacing between the image
 	and text */
     
 	order: -1;
 	margin-bottom: 20px; 
+	
   }
 	
 	.site-title {
@@ -277,12 +281,18 @@ b {
 	.post-date-mob{
 		display:inline-block;
 	}
+	.social-link {
+  margin-right: 10px; /* Adjust the spacing between the image and icons */
+  font-size: 25px;
 }
-
-/* Override content width on mobile */
-@media screen and (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
 }
+/* Reduce the spacing before and after the custom horizontal rule */
+hr {
+  margin-top: 0px; /* Remove margin above the <hr> */
+  margin-bottom: 5px; /* Remove margin below the <hr> */
+  padding-top: 0; /* Remove padding above the <hr> (if any) */
+  padding-bottom: 0; /* Remove padding below the <hr> (if any) */
+  border: none; /* Remove the default border, if any */
+  border-top: 1px solid lightgrey; /* Optionally, add your own custom border style */
 
+}
