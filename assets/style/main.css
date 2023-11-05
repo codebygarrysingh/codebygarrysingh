@@ -1,10 +1,8 @@
-.container {
-  width: 100%;
-  /* Other CSS properties */
-}
-.body{
+body{
   font-family: "Arial", sans-serif; 
   font-size:16px;
+  padding-left:10%;
+  padding-right:10%;
 }
 .site-nav{
 	font-weight:550;
@@ -192,6 +190,21 @@ b {
 .post-date-mob{
 	display:none;
 }
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-link {
+  margin-right: 10px; /* Adjust the spacing between the image and icons */
+  font-size: 20px;
+}
+
+/* Add any additional styling as needed */
+
+
 @media screen and (max-width: 768px) {
     body {
         padding: 5px;
@@ -207,11 +220,37 @@ b {
 		width: 100%;
 		font-size: 18px;
     }
-	.profile-image {
-		width:50%;
-		height:50%;
-		max-width: 50%; 
-	}
+	.intro {
+    display: flex; /* Use flexbox to align items horizontally */
+    flex-direction: column; /* Stack the image on top of the text */
+    align-items: center; /* Center-align items */
+    text-align: center;
+  }
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .social-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+	.text {
+        width: 100%;
+        text-align: left;
+    }
+  .profile-image {
+    max-width: 50%; /* Adjust the image width as needed */
+    margin-left: 0; /* Remove spacing between the image
+	and text */
+    
+	order: -1;
+	margin-bottom: 20px; 
+  }
+	
 	.site-title {
 		font-weight: 600; 
 		font-family: "cursive", "Lucida Handwriting", "Brush Script MT", cursive;
@@ -240,28 +279,10 @@ b {
 	}
 }
 
-/* Reduce the spacing before and after the custom horizontal rule */
-hr {
-  margin-top: 0px; /* Remove margin above the <hr> */
-  margin-bottom: 5px; /* Remove margin below the <hr> */
-  padding-top: 0; /* Remove padding above the <hr> (if any) */
-  padding-bottom: 0; /* Remove padding below the <hr> (if any) */
-  border: none; /* Remove the default border, if any */
-  border-top: 1px solid lightgrey; /* Optionally, add your own custom border style */
-
+/* Override content width on mobile */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 }
-
-.image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.social-link {
-  margin-right: 10px; /* Adjust the spacing between the image and icons */
-  font-size: 20px;
-}
-
-/* Add any additional styling as needed */
 
