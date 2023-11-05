@@ -1,6 +1,13 @@
-body{
+.container {
+  width: 100%;
+  /* Other CSS properties */
+}
+.body{
   font-family: "Arial", sans-serif; 
   font-size:16px;
+}
+.site-nav{
+	font-weight:550;
 }
 .publications-title {
   font-size: 24px;
@@ -67,9 +74,13 @@ body{
 
 /* Rounded and responsive profile image */
 .profile-image {
-  border-radius: 100%; /* Makes the image rounded */
-  max-width: 20%;    /* Ensures the image is responsive and scales with its container */
-  height: auto;       /* Automatically adjusts the image's height while maintaining the aspect ratio */
+  border-radius: 4%; /* Makes the image rounded */
+  max-width: 35%;    /* Ensures the image is responsive and scales with its container */
+  height: auto;   /* Automatically adjusts the image's height while maintaining the aspect ratio */
+  margin-left: 30px; /* Add spacing between the image and text */
+}
+.text {
+  flex: 1; /* Allow the text to take up remaining space */
 }
 .tags {
 	margin-bottom: 10px;
@@ -137,9 +148,11 @@ ul {
 	color:black;
 	border: none;
 }
- /* Apply font styles and make text bold */
-.intro h1 {
-  font-weight: bold;
+
+.intro {
+  display: flex; /* Use flexbox to align items horizontally */
+  margin-top: 2%;
+  align-items: flex-start; /* Align items to the top of the container */
 }
 /* Indent date to the right */
 .blog-posts h2 {
@@ -237,3 +250,18 @@ hr {
   border-top: 1px solid lightgrey; /* Optionally, add your own custom border style */
 
 }
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-link {
+  margin-right: 10px; /* Adjust the spacing between the image and icons */
+  font-size: 20px;
+}
+
+/* Add any additional styling as needed */
+
