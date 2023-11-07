@@ -246,10 +246,8 @@ b {
         text-align: left;
     }
   .profile-image {
-    max-width: 100%; /* Adjust the image width as needed */
-    margin-left: 0; /* Remove spacing between the image
-	and text */
-    
+    max-width: 60%; /* Adjust the image width as needed */
+    margin: 0 auto;
 	order: -1;
 	margin-bottom: 20px; 
 	
