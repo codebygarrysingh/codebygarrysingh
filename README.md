@@ -59,30 +59,30 @@ I help financial institutions and enterprise teams ship production AI systems th
 
 ## Selected Work
 
-### 🤖 [multiagent-llm-aidemy](https://github.com/codebygarrysingh/multiagent-llm-aidemy)
-Multi-agent LLM system demonstrating autonomous task decomposition, tool use, and inter-agent communication patterns. Built with LangGraph and LangChain.
+### 🤖 [agentic-ai-financial-services](https://github.com/codebygarrysingh/agentic-ai-financial-services)
+Multi-agent AI system patterns for financial services: compliance intelligence, risk monitoring, and regulatory automation. LangGraph supervisor architecture with human-in-the-loop escalation.
 
-### 📊 [blog-summarizer-app](https://github.com/codebygarrysingh/blog-summarizer-app)
-Production-ready LLM application using OpenAI GPT for intelligent content summarisation — practical LLM integration patterns for real-world deployment.
+### ⚙️ [production-rag-pipeline](https://github.com/codebygarrysingh/production-rag-pipeline)
+Enterprise-grade RAG with hybrid search (dense + BM25 + RRF), RAGAS evaluation framework, Redis semantic caching, and Guardrails AI output validation.
+
+### 🔬 [llmops-reference-architecture](https://github.com/codebygarrysingh/llmops-reference-architecture)
+End-to-end LLMOps: experiment tracking, model registry, drift detection, A/B testing, and automated CI/CD quality gates for production LLM systems.
+
+### 🌊 [real-time-data-platform](https://github.com/codebygarrysingh/real-time-data-platform)
+Enterprise streaming platform: Kafka exactly-once delivery, Spark Structured Streaming, Delta Lake medallion architecture, and Great Expectations data quality.
 
 ### 🧠 [ml-neural-network-projects](https://github.com/codebygarrysingh/ml-neural-network-projects)
-Neural network implementations for real-world prediction tasks — room occupancy, sensor data classification, and multi-class problems using TensorFlow/Keras.
-
-### 📈 [ml-regression-python-projects](https://github.com/codebygarrysingh/ml-regression-python-projects)
-Practical regression implementations covering linear models through advanced fine-tuning — end-to-end from EDA to evaluation.
-
-### 🛠️ [data-prep-utility](https://github.com/codebygarrysingh/data-prep-utility)
-Reusable data preprocessing pipeline covering null handling, feature encoding, scaling, and validation — production-ready quality checks for ML pipelines.
+LSTM time-series forecasting, multi-class classification, and deep learning for IoT sensor data using PyTorch and TensorFlow.
 
 ---
 
 ## By the Numbers
 
-- **60%** reduction in manual processing — multi-agent AI at RegCore.AI (production)
-- **80%** faster regulatory reporting — RBC distributed batch system redesign
-- **10M+** daily events processed — Northern Trust real-time market risk platform
-- **<10ms** latency — TD Bank capital markets Kafka migration (5M+ daily transactions)
-- **10+ years** at RBC, TD Bank, Northern Trust, IBM, Albertsons
+- **60%** reduction in manual processing — multi-agent compliance AI (production)
+- **80%** faster regulatory reporting — distributed batch system redesign at Tier-1 bank
+- **10M+** daily events processed — real-time market risk streaming platform
+- **<10ms** latency — capital markets Kafka migration, 5M+ daily transactions
+- **10+ years** across Canada's top financial institutions, global asset managers, and government platforms
 
 ---
 
