@@ -99,4 +99,4 @@ LSTM time-series forecasting, multi-class classification, and deep learning for 
 
 Available for consulting engagements and senior contract roles — remote-first, based in Toronto.
 
-**[📅 Book a free consultation](https://calendly.com/garry-singh2902)** · **[📧 Email me](mailto:garry.singh2902@gmail.com)** · **[🌐 Portfolio](https://garrysingh.dev)**
+**[📅 Book a free consultation](https://calendly.com/garry-singh2902)** · **[📧 Email me](mailto:garry.singh2902@gmail.com)**
