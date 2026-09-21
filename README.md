@@ -8,7 +8,6 @@ I help financial institutions and enterprise teams ship production AI systems th
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-singhgarry-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/singhgarry)
 [![Email](https://img.shields.io/badge/Email-garry.singh2902%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:garry.singh2902@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-garrysingh.dev-C8A961?style=flat&logo=firefox&logoColor=white)](https://garrysingh.dev)
 
 ---
 
